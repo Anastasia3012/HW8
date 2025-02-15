@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-//        Задача2
+//        Задача1
         int accumulation = 15000;
         int amount = 0;
         int i = 0;
@@ -16,16 +16,13 @@ public class Main {
         }
 
 //        Задача2
-        int x = 1;
-        while (x <= 10) {
+
+        for (int x = 1; x <= 10; x++) {
             System.out.print(x + " ");
-            x++;
         }
         System.out.println();
-        x = 10;
-        while (x > 0) {
-            System.out.print(x + " ");
-            x--;
+        for (int p = 10; p > 0; p--) {
+            System.out.print(p + " ");
         }
         System.out.println();
 
